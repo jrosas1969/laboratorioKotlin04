@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:background="@color/gris"
+android:layout_weight="4">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cachorros"
+            android:layout_marginBottom="40dp"
+            />
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/aspa_plus"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="right"
+            />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/circulo_plus"
+            android:layout_marginTop="210dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="60dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROTTWEILERS"
+            android:layout_gravity="center|bottom"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="35dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lima | Perú"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:background="@color/gris"
+android:layout_weight="2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/naranja"
+        android:textColor="@color/white"
+        android:paddingTop="50dp"
+        android:text="150
+         Followers"
+        android:layout_marginLeft="7dp"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="50dp"
+        android:textColor="@color/white"
+        android:background="@color/verde"
+        android:text="19
+        Cities"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/celeste"
+        android:textColor="@color/white"
+        android:paddingTop="50dp"
+        android:text="50
+         Posts"
+        android:layout_marginRight="7dp"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+</LinearLayout>
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:background="@color/gris"
+android:layout_weight="1"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="120dp"
+    android:paddingHorizontal="6dp"
+    android:paddingVertical="15dp"
+    android:textSize="18dp"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:text="FOLLOW ME"
+    android:background="@drawable/caja_rectangular"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="5dp"
+    />
+
+
+</LinearLayout>
+</LinearLayout>
